@@ -59,33 +59,33 @@ Vamos imaginar que um servidor é um prédio com várias portas. Cada porta ofer
 
 Este desafio envolve o mapeamento de portas para serviços, utilizando um dicionário (ou estrutura de dados similar) para armazenar as associações.
 
-**Criando um dicionário de serviços** - Imagine uma tabela com duas colunas: a primeira com o número da porta e a segunda com o serviço correspondente.  Essa tabela é o nosso dicionário de serviços.
+1. **Criando um dicionário de serviços** - Imagine uma tabela com duas colunas: a primeira com o número da porta e a segunda com o serviço correspondente.  Essa tabela é o nosso dicionário de serviços.
 
-	**Estrutura de dados** - Um dicionário é a estrutura ideal para armazenar o mapeamento porta-serviço, permitindo buscas eficientes.  A chave do dicionário é o número da porta (como inteiro) e o valor é o nome do serviço (como string).
+**Estrutura de dados** - Um dicionário é a estrutura ideal para armazenar o mapeamento porta-serviço, permitindo buscas eficientes.  A chave do dicionário é o número da porta (como inteiro) e o valor é o nome do serviço (como string).
 
-**Recebendo a lista de portas** - Imagine que você recebe uma lista de números de portas escritas em um papel.
+2. **Recebendo a lista de portas** - Imagine que você recebe uma lista de números de portas escritas em um papel.
 
-	**Processamento da entrada** - A string de entrada contendo as portas deve ser processada para extrair os números das portas.  A função split(',') pode ser usada para dividir a string em uma lista de strings, e em seguida, cada string deve ser convertida para um número inteiro.
+**Processamento da entrada** - A string de entrada contendo as portas deve ser processada para extrair os números das portas.  A função split(',') pode ser usada para dividir a string em uma lista de strings, e em seguida, cada string deve ser convertida para um número inteiro.
 
-**Consultando o dicionário** - Para cada porta na lista, você procura o número da porta na sua tabela (dicionário). Se encontrar, você anota o serviço correspondente.
+3. **Consultando o dicionário** - Para cada porta na lista, você procura o número da porta na sua tabela (dicionário). Se encontrar, você anota o serviço correspondente.
 
-	**Busca no dicionário** -  Para cada porta, utilize o operador in ou o método get() do dicionário para verificar se a porta existe no mapeamento.  O método get() permite definir um valor padrão (como "Desconhecido") caso a chave não seja encontrada.
+**Busca no dicionário** -  Para cada porta, utilize o operador in ou o método get() do dicionário para verificar se a porta existe no mapeamento.  O método get() permite definir um valor padrão (como "Desconhecido") caso a chave não seja encontrada.
 
-**Lidando com portas desconhecidas**: Se uma porta não estiver na sua tabela, significa que o serviço é desconhecido. Nesse caso, você anota "Desconhecido".
+4. **Lidando com portas desconhecidas**: Se uma porta não estiver na sua tabela, significa que o serviço é desconhecido. Nesse caso, você anota "Desconhecido".
 
-	**Tratamento de erros** - Implemente tratamento de exceções para lidar com entradas inválidas, como números de porta não numéricos.
+**Tratamento de erros** - Implemente tratamento de exceções para lidar com entradas inválidas, como números de porta não numéricos.
 
-**Retornando a lista de serviços** -  No final, você terá uma nova lista com os serviços correspondentes às portas fornecidas, incluindo "Desconhecido" para as portas que não estavam na tabela.
+5. **Retornando a lista de serviços** -  No final, você terá uma nova lista com os serviços correspondentes às portas fornecidas, incluindo "Desconhecido" para as portas que não estavam na tabela.
 
-Considerações de performance - Para um grande número de portas, a busca no dicionário é eficiente.  No entanto, se o mapeamento porta-serviço for extremamente grande, outras estruturas de dados, como árvores de busca, podem ser consideradas para otimizar ainda mais o desempenho.
+**Considerações de performance** - Para um grande número de portas, a busca no dicionário é eficiente.  No entanto, se o mapeamento porta-serviço for extremamente grande, outras estruturas de dados, como árvores de busca, podem ser consideradas para otimizar ainda mais o desempenho.
 
 > PONTOS DE ATENÇÃO
 
-**Tipo de dados das portas** - As portas devem ser tratadas como números inteiros para garantir a correta comparação no dicionário.
+1. **Tipo de dados das portas** - As portas devem ser tratadas como números inteiros para garantir a correta comparação no dicionário.
 
-**Tratamento de entradas inválidas** - O código deve ser robusto o suficiente para lidar com entradas que não seguem o formato esperado.
+2. **Tratamento de entradas inválidas** - O código deve ser robusto o suficiente para lidar com entradas que não seguem o formato esperado.
 
-**Case sensitivity** - Dependendo dos requisitos, a comparação dos nomes dos serviços pode ser sensível a maiúsculas e minúsculas.
+3. **Case sensitivity** - Dependendo dos requisitos, a comparação dos nomes dos serviços pode ser sensível a maiúsculas e minúsculas.
 
 ```py
 ...
@@ -110,17 +110,25 @@ Considerações de performance - Para um grande número de portas, a busca no di
 
 ## II	1/2 Code Challenge - 
 
-> Descrição: 
-
+> ... Em breve uma análise do problema com os tópicos em destaque.
 
 ```py
-#
+# ...
+	analise = 'Seguro'
+    for palavra in mensagem:
+        palavra = ''.join(letra for letra in palavra if letra.isalnum()) # remover caracteres especiais
+        if palavra.lower() in palavras_suspeitas: # letras minúsculas
+            analise = 'Phishing'
+            break
+    return analise
+#...
+        
 ```
 
 ## II	2/2 Code Challenge -
 
-> Descrição: 
+> ... Em breve uma análise do problema com os tópicos em destaque.
 
 ```py
-#
+# 
 ```
