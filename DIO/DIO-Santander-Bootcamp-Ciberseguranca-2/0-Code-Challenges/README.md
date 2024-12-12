@@ -4,7 +4,7 @@ I. Explorando Fundamentos de Cibersegurança com Desafios de Código em Python [
 
 II. Busca por Vulnerabilidades com Desafios de Código em Python [2]
 
-## I.	1/2 Code Challenge - Verificação de Integridade de Arquivos com Hashes
+## I	Verificação de Integridade de Arquivos com Hashes [1/2]
 
 Ao valiar o contexto do desafio é possivel imaginar que um arquivo importante da internet foi baixado, para um um jogo ou um programa. Para validar a legibilidade do arquivo, se não foi corrompido durante o processo de envio ou modificado durante o download, talvez por um erro ou até mesmo intencionalmente. A verificação da hash é uma técnica usada para garantir que o arquivo que foi baixado é exatamente igual ao original.
 
@@ -20,13 +20,13 @@ Este desafio envolve o processamento de strings e a comparação de hashes para 
 
 1. **Processando a entrada**: Imagine que você tem uma lista de impressões digitais em papeizinhos. Você precisa pegar um papelzinho de cada vez, separar a impressão digital calculada da esperada e compará-las.
 
-**Parsing da entrada** - A string de entrada contendo os pares de hashes deve ser analisada (parsed) para extrair os valores individuais.  Técnicas como split() (em Python) ou funções similares em outras linguagens podem ser utilizadas para dividir a string com base nos delimitadores (vírgula e ponto e vírgula).
+**Parsing da entrada** - A string de entrada contendo os pares de hashes deve ser analisada (parsed) para extrair os valores individuais.  Técnicas como split() (em Python) ou funções similares em outras linguagens podem ser utilizadas para dividir a string com base nos delimitadores (vírgula e ponto-e-vírgula).
 
-2. **Comparando os hashes**:  Se as impressões digitais (hashes) calculada e esperada forem iguais, o arquivo está íntegro.  Caso contrário, o arquivo foi modificado ou corrompido.
+2. **Comparando os hashes** - Se as impressões digitais (hashes) calculada e esperada forem iguais, o arquivo está íntegro.  Caso contrário, o arquivo foi modificado ou corrompido.
 
 **Comparação de strings** -  A comparação dos hashes deve ser feita de forma case-sensitive (ou seja, diferenciando maiúsculas de minúsculas), pois mesmo uma pequena diferença entre os hashes indica que os arquivos são diferentes.  Em algumas linguagens, pode ser necessário normalizar os hashes antes da comparação para garantir consistência.
 
-3. **Imprimindo o resultado**: Para cada par de hashes comparado, o sistema deve imprimir "Correto" se os hashes forem iguais e "Inválido" se forem diferentes.
+3. **Imprimindo o resultado** - Para cada par de hashes comparado, o sistema deve imprimir "Correto" se os hashes forem iguais e "Inválido" se forem diferentes.
 
 > **PONTOS DE ATENÇÃO**
 
@@ -49,7 +49,7 @@ Eficiência:  Para grandes quantidades de dados, considerar a otimização do pr
 # ...
 ```
 
-## I	2/2 Code Challenge - Simulação de Enumeração de Serviços em um Servidor
+## I	Simulação de Enumeração de Serviços em um Servidor [2/2]
 
 Vamos imaginar que um servidor é um prédio com várias portas. Cada porta oferece um serviço diferente, como HTTP para acessar páginas web, FTP para transferir arquivos ou SSH para acesso remoto. Este desafio simula a identificação do serviço oferecido por cada porta em um servidor. Ao receber uma lista de números de portas se faz necessário retornar o serviço correspondente a cada uma delas.
 
@@ -106,7 +106,7 @@ Este desafio envolve o mapeamento de portas para serviços, utilizando um dicion
 # ...
 ```
 
-## II	1/2 Code Challenge - Detecção de Phishing por Padrões de E-mail
+## II	Detecção de Phishing por Padrões de E-mail [1/2]
 
 Nesse desafio podemos analisar a situação de inúmeros e-mails todos os dias. Alguns são legítimos, como mensagens de amigos ou familiares, enquanto outros podem ser tentativas de __phishing__, que são mensagens fraudulentas que tentam roubar suas informações pessoais. O desafio propõe a criação de um sistema que analisa o conteúdo de um e-mail e identifica se a mensagem é suspeito de ser maliciosa.
 
@@ -151,7 +151,7 @@ B. Negativos - E-mails de phishing sofisticados podem evitar o uso de palavras-c
         
 ```
 
-## II	2/2 Code Challenge - Detecção de Tentativas de Invasão em Logs
+## II	Detecção de Tentativas de Invasão em Logs [2/2]
 
 Vamos analisar um sistema para suporte a um guarda de segurança monitorando as entradas de um prédio.  Existem registros de quem entra e sai, é necessário ficar atento a qualquer atividade suspeita, como alguém tentando entrar várias vezes sem sucesso. Este desafio simula esse cenário, onde você precisa analisar registros de log de tentativas de acesso para detectar possíveis invasores.
 
@@ -206,16 +206,13 @@ C. **Performance** - Para grandes volumes de logs, a eficiência do processament
         else:
             usuario_atual = usuario
             
-            if tentativas_consecutivas >= 3:
-                invasor_detectado = usuario
-            
             # TODO: Atualize para o novo usuário e reinicie a contagem de tentativas falhas:
             # Se a nova tentativa for "falha", inicie a contagem em 1; caso contrário, inicie em 0
             tentativas_consecutivas = 1 if status == "falha" else 0            
     
-    # TODO: Após o loop, verifique se o último usuário teve mais de 3 tentativas de falha:
-    if tentativas_consecutivas >= 3: 
-        invasor_detectado = usuario
+		# TODO: Após o loop, verifique se o último usuário teve mais de 3 tentativas de falha:
+		if tentativas_consecutivas >= 3: 
+		    invasor_detectado = usuario
     
     # Retorna o resultado final
     return invasor_detectado if invasor_detectado else "Nenhum invasor detectado"

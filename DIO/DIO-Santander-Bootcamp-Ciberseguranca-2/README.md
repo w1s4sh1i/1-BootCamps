@@ -2,3 +2,10 @@
 
 > Descrição e data
 > Colocação geral
+
+## Desafios de código
+
+## Projetos
+
+## Monitorias
+
