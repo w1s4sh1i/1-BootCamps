@@ -53,7 +53,7 @@ Eficiência:  Para grandes quantidades de dados, considerar a otimização do pr
 
 Vamos imaginar que um servidor é um prédio com várias portas. Cada porta oferece um serviço diferente, como HTTP para acessar páginas web, FTP para transferir arquivos ou SSH para acesso remoto. Este desafio simula a identificação do serviço oferecido por cada porta em um servidor. Ao receber uma lista de números de portas se faz necessário retornar o serviço correspondente a cada uma delas.
 
-**Estratégias de Resolução**
+> **Estratégias de Resolução**
 
 Este desafio envolve o mapeamento de portas para serviços, utilizando um dicionário (ou estrutura de dados similar) para armazenar as associações.
 
@@ -77,7 +77,7 @@ Este desafio envolve o mapeamento de portas para serviços, utilizando um dicion
 
 **Considerações de performance** - Para um grande número de portas, a busca no dicionário é eficiente.  No entanto, se o mapeamento porta-serviço for extremamente grande, outras estruturas de dados, como árvores de busca, podem ser consideradas para otimizar ainda mais o desempenho.
 
-> PONTOS DE ATENÇÃO
+> **PONTOS DE ATENÇÃO**
 
 1. **Tipo de dados das portas** - As portas devem ser tratadas como números inteiros para garantir a correta comparação no dicionário.
 
@@ -110,7 +110,7 @@ Este desafio envolve o mapeamento de portas para serviços, utilizando um dicion
 
 Nesse desafio podemos analisar a situação de inúmeros e-mails todos os dias. Alguns são legítimos, como mensagens de amigos ou familiares, enquanto outros podem ser tentativas de __phishing__, que são mensagens fraudulentas que tentam roubar suas informações pessoais. O desafio propõe a criação de um sistema que analisa o conteúdo de um e-mail e identifica se a mensagem é suspeito de ser maliciosa.
 
-**Estratégias de Resolução**
+> **Estratégias de Resolução**
 
 Este desafio envolve a análise de texto e a busca por padrões para identificar potenciais e-mails de phishing.
 
@@ -128,15 +128,15 @@ Este desafio envolve a análise de texto e a busca por padrões para identificar
 
 **Busca por palavras-chave** - Criar uma lista (ou conjunto, para maior eficiência) de palavras-chave associadas a phishing.  Iterar pelos tokens do e-mail e verificar se algum deles está presente na lista de palavras-chave.  Utilizar expressões regulares pode ser útil para buscar padrões mais complexos.
 
-**Pontos de Atenção**
+> **PONTOS DE ATENÇÃO**
 
-Análise de Falsos:
+**Análise de Falsos**
 
 A. Positivos - É possível que um e-mail legítimo contenha alguma palavra suspeita, sendo classificado incorretamente como phishing.
 
 B. Negativos - E-mails de phishing sofisticados podem evitar o uso de palavras-chave óbvias, tornando a detecção mais difícil.
 
-Manutenção da lista de palavras-chave -  A lista de palavras-chave precisa ser atualizada regularmente para acompanhar as novas técnicas de phishing.
+**Manutenção da lista de palavras-chave** -  A lista de palavras-chave precisa ser atualizada regularmente para acompanhar as novas técnicas de phishing.
 
 ```py
 # ...
@@ -155,7 +155,7 @@ Manutenção da lista de palavras-chave -  A lista de palavras-chave precisa ser
 
 Vamos analisar um sistema para suporte a um guarda de segurança monitorando as entradas de um prédio.  Existem registros de quem entra e sai, é necessário ficar atento a qualquer atividade suspeita, como alguém tentando entrar várias vezes sem sucesso. Este desafio simula esse cenário, onde você precisa analisar registros de log de tentativas de acesso para detectar possíveis invasores.
 
-**Estratégias de Resolução**
+> **Estratégias de Resolução**
 
 Este desafio envolve o processamento de logs e a contagem de eventos consecutivos para detectar anomalias.
 
@@ -179,7 +179,7 @@ III. Se a contagem de falhas para um usuário ultrapassar 3, retornar o ID do us
 
 **Retorno do resultado** - Após processar todos os registros, se nenhum usuário tiver atingido mais de 3 falhas consecutivas, retornar "Nenhum invasor detectado".
 
-**Pontos de Atenção**
+> **PONTOS DE ATENÇÃO**
 
 A. **Contagem consecutiva** - O sistema deve contar apenas falhas consecutivas.  Uma tentativa bem-sucedida deve zerar a contagem de falhas para o usuário.
 
