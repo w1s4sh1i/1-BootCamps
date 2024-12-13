@@ -18,7 +18,7 @@ Vamos realizar um comparativo das hashes com "impressões digitais" - identifica
 
 Este desafio envolve o processamento de strings e a comparação de hashes para verificação de integridade.  A solução pode ser implementada em diversas linguagens de programação, utilizando diferentes abordagens.
 
-1. **Processando a entrada**: Imagine que você tem uma lista de impressões digitais em papeizinhos. Você precisa pegar um papelzinho de cada vez, separar a impressão digital calculada da esperada e compará-las.
+1. **Processando a entrada** - Imagine que você tem uma lista de impressões digitais em papeizinhos. Você precisa pegar um papelzinho de cada vez, separar a impressão digital calculada da esperada e compará-las.
 
 **Parsing da entrada** - A string de entrada contendo os pares de hashes deve ser analisada (parsed) para extrair os valores individuais.  Técnicas como split() (em Python) ou funções similares em outras linguagens podem ser utilizadas para dividir a string com base nos delimitadores (vírgula e ponto-e-vírgula).
 
