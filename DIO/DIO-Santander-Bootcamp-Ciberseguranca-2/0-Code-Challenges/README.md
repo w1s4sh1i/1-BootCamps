@@ -1,8 +1,8 @@
 # Code Challenges - Santander Bootcamp Cibersegurança #2
 
-I. Explorando Fundamentos de Cibersegurança com Desafios de Código em Python [2]
+I. [Explorando Fundamentos de Cibersegurança com Desafios de Código em Python](https://web.dio.me/coding/explorando-fundamentos-de-ciberseguranca-com-desafios-de-codigo-em-python/algorithm/verificacao-de-integridade-de-arquivos-com-hashes?back=/track/santander-ciberseguranca-2024&tab=undefined&moduleId=undefined) [2]
 
-II. Busca por Vulnerabilidades com Desafios de Código em Python [2]
+II. [Busca por Vulnerabilidades com Desafios de Código em Python](https://web.dio.me/coding/busca-por-vulnerabilidades-com-desafios-de-codigo-em-python/algorithm/deteccao-de-phishing-por-padroes-de-e-mail?back=/track/santander-ciberseguranca-2024&tab=undefined&moduleId=undefined) [2]
 
 ## I	Verificação de Integridade de Arquivos com Hashes [1/2]
 
@@ -221,3 +221,4 @@ C. **Performance** - Para grandes volumes de logs, a eficiência do processament
     resultado = detectar_invasao(registros)    
 # ...
 ```
+Artigo na Plataforma DIO - [Santander CyberSegurança #2: Uma análise sobre os Desafios de Código]()
