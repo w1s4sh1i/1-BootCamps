@@ -14,7 +14,7 @@ def detectar_invasao(registros):
         usuario, status = registro.split(":")
         
         # TODO: Verifique se o usuário atual é o mesmo da iteração anterior:
-        if usuario_atual != usuario:
+        if usuario_atual == usuario:
             
             # Se o status é "falha", incremente o contador de tentativas falhas
             # Se a tentativa foi bem-sucedida, resete o contador de falhas 
@@ -22,13 +22,13 @@ def detectar_invasao(registros):
         
         # TODO: Se mudar de usuário, verifique se o usuário anterior teve mais de 3 falhas consecutivas:
         else:
-            usuario_atual = usuario
-            
-            if tentativas_consecutivas >= 3:
-                invasor_detectado = usuario
-            
+			
+			if tentativas_consecutivas >= 3:
+            	invasor_detectado = usuario
+
             # TODO: Atualize para o novo usuário e reinicie a contagem de tentativas falhas:
-            # Se a nova tentativa for "falha", inicie a contagem em 1; caso contrário, inicie em 0
+            usuario_atual = usuario
+			# Se a nova tentativa for "falha", inicie a contagem em 1; caso contrário, inicie em 0
             tentativas_consecutivas = 1 if status == "falha" else 0            
     
     # TODO: Após o loop, verifique se o último usuário teve mais de 3 tentativas de falha:
