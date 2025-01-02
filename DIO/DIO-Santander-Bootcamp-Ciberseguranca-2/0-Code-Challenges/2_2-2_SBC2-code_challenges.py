@@ -134,13 +134,9 @@ def detectar_invasao(registros):
         usuario, status = registro.split(":")
         
         if usuario_atual != usuario:
-            
-            tentativas_consecutivas = (tentativas_consecutivas+1) * (status == "falha")
-        
-        else:
             usuario_atual = usuario
             
-            tentativas_consecutivas = status == "falha"            
+        tentativas_consecutivas = (tentativas_consecutivas+1) * (status == "falha")
     
         if tentativas_consecutivas > 3: 
             invasor_detectado = usuario
