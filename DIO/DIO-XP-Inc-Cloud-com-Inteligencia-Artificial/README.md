@@ -54,7 +54,7 @@ Bootcamp gratuito e jornada composta de 7 projetos + desafios de códigos.
 
 6 - 
 
-7 - 
+7 - Explorar os Recursos de IA Generativa com Copilot e OpenAI
 
 ## Monitorias
 
