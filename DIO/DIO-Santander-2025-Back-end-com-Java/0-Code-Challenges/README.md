@@ -6,13 +6,13 @@ I	Explorando a Sintaxe Java na Prática
 
 - [x] 1 / 2 - Gerador de Identificadores Únicos;
 
-- [ ] 2 / 2 - Normalizador de URLs;
+- [x] 2 / 2 - Normalizador de URLs;
 
-II	
+II	Dominando a Programação Orientada a Objetos
 
-- [ ] 1 / 2 - ;
+- [ ] 1 / 2 - Criando um Sistema de Pedidos de Loja Virtual;
 
-- [ ] 2 / 2 - ;
+- [ ] 2 / 2 - Simulador de Conta Bancária;
 
 III	
 
