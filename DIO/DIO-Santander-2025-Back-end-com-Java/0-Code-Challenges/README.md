@@ -10,9 +10,9 @@ I	Explorando a Sintaxe Java na Prática
 
 II	Dominando a Programação Orientada a Objetos
 
-- [ ] 1 / 2 - Criando um Sistema de Pedidos de Loja Virtual;
+- [x] 1 / 2 - Criando um Sistema de Pedidos de Loja Virtual;
 
-- [ ] 2 / 2 - Simulador de Conta Bancária;
+- [x] 2 / 2 - Simulador de Conta Bancária;
 
 III	
 
