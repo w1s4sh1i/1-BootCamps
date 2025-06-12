@@ -18,7 +18,7 @@ III Aprimorando Lógica de Programação
 
 - [X] 1 / 2 - Analisador de Requisições HTTP;
 
-- [ ] 2 / 2 - Analisador de Endereços IP;
+- [X] 2 / 2 - Analisador de Endereços IP;
 
 VI Estruturando Regras e Processos Lógicos
 
