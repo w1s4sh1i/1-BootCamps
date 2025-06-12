@@ -14,20 +14,20 @@ II	Dominando a Programação Orientada a Objetos
 
 - [x] 2 / 2 - Simulador de Conta Bancária;
 
-III	
+III Aprimorando Lógica de Programação
 
-- [ ] 1 / 2 - ;
+- [X] 1 / 2 - Analisador de Requisições HTTP;
 
-- [ ] 2 / 2 - ;
+- [ ] 2 / 2 - Analisador de Endereços IP;
 
-IV	
+VI Estruturando Regras e Processos Lógicos
 
-- [ ] 1 / 2 - ;
+- [ ] 1 / 2 - Validador de Senhas Fortes;
 
-- [ ] 2 / 2 - ; 
+- [ ] 2 / 2 - Sistema de Cálculo de Frete;
 
-V	
+V Desenvolvendo Lógica para Aplicações Escaláveis
 
-- [ ] 1 / 2 - ;
+- [ ] 1 / 2 - Gerador de Códigos Promocionais;
 
-- [ ] 2 / 2 - ;
+- [ ] 2 / 2 - Controle de Acessos em um Sistema;
