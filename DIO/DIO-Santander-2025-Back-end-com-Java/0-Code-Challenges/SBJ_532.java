@@ -18,7 +18,7 @@ TODO:
 */
 import java.util.Scanner; 
 
-public class Main {
+public class SBJ_532 {
 
     // Método auxiliar para verificar se uma string representa um número válido entre 0 e 255
     private static boolean ehNumeroValido(String str) {
