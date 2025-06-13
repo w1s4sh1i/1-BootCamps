@@ -24,7 +24,7 @@ VI Estruturando Regras e Processos Lógicos
 
 - [X] 1 / 2 - Validador de Senhas Fortes;
 
-- [ ] 2 / 2 - Sistema de Cálculo de Frete;
+- [X] 2 / 2 - Sistema de Cálculo de Frete;
 
 V Desenvolvendo Lógica para Aplicações Escaláveis
 
