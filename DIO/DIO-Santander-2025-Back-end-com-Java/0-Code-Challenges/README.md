@@ -22,7 +22,7 @@ III Aprimorando Lógica de Programação
 
 VI Estruturando Regras e Processos Lógicos
 
-- [ ] 1 / 2 - Validador de Senhas Fortes;
+- [X] 1 / 2 - Validador de Senhas Fortes;
 
 - [ ] 2 / 2 - Sistema de Cálculo de Frete;
 
