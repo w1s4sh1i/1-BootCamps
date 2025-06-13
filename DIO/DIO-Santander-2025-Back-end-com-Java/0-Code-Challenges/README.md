@@ -28,6 +28,6 @@ VI Estruturando Regras e Processos Lógicos
 
 V Desenvolvendo Lógica para Aplicações Escaláveis
 
-- [ ] 1 / 2 - Gerador de Códigos Promocionais;
+- [X] 1 / 2 - Gerador de Códigos Promocionais;
 
-- [ ] 2 / 2 - Controle de Acessos em um Sistema;
+- [X] 2 / 2 - Controle de Acessos em um Sistema;
