@@ -1,2 +1,0 @@
-# BootCamps Description
-
