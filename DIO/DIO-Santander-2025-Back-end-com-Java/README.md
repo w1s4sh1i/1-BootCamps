@@ -26,7 +26,7 @@ Setup information:
 |28		|9		            |5	    		    | 
 
 |MID	|MODULE 											|SID	|CATEGORY 	    |SUBMODULE 		                            |DURATION (hrs)	|CHECK				|
-|:----  |:---- 												|:----	|:----  		|:----:				                        |:----:		    |:----:				|
+|:----  |:---- 												|:----	|:----  		|:----				                        |:----:		    |:----:				|
 |M-1 	|Princípios de Desenvolvimento De Aplicações Java	|	   	|			    | 					 	                    |			    |:white_check_mark:	|
 |		|			 										|SC-1	|Course			|Introdução à Experiência Santander 2025    |1        	    |					|
 |		|			 										|SC-2	|Course			|Introdução ao Java e seu Ambiente de Desenvolvimento|1	   	|					|
@@ -42,7 +42,7 @@ Setup information:
 |		|													|SLP-3  |Lab Project	|Criando Um Pequeno Sistema Para Validação de Processo Seletivo|1|				|
 |		|													|SC-8   |Course			|Desafios de Código: Aperfeiçoe Sua Lógica e Pensamento Computacional|1|		|
 |		|													|SCC-1  |Code Challenge	|Explorando a Sintaxe Java na Prática  		|1   		    |					|
-    |M-3 	|Programação Orientada a Objetos  				|	   	|				|						                    |			    |:white_check_mark:	|
+|M-3 	|Programação Orientada a Objetos  					|	   	|				|						                    |			    |:white_check_mark:	|
 | 		|													|SC-9	|Course			|Java e a Arte da Abstração com Classes e Encapsulamento|2	|          			|
 | 		|													|SC-10	|Course			|Herança e Polimorfismo em Java	   			|2			    |					|
 | 		|													|SC-11	|Course			|Dominando Interfaces e Lambda em Java	   	|2			    |					|

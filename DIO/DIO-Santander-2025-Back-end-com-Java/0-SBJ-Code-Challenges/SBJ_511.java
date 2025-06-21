@@ -1,4 +1,9 @@
-/* 
+/*
+Platform: DIO
+BootCamp: Santander 2025 Back-End Java
+Developer: André Bezerra
+Module: Explorando a Sintaxe Java na Prática 
+Challenge: 1 / 2 Gerador de Identificadores Únicos
 TODO: 
     - [x] 1 - Formate o identificador (minúsculas e sem espaços):
     - [x] 2 - Exiba o resultado:
