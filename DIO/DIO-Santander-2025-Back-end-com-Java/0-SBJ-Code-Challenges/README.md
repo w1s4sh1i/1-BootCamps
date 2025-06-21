@@ -3,7 +3,7 @@
 Os desafios foram desenvolvidos em **Java** com objetivo de atingir a resolução dos problemas propostos.
 
 |SID    |SUBMODULE                                      |LEVEL		 |CHALLENGE                                         |FILE 	 | CHECK                     |
-|:----: |:----                                          |			 | :----                                            |:----	 | :----:                    |
+|:----: |:----                                          |:----		 | :----                                            |:----	 | :----:                    |
 |SCC-1	|Explorando a Sintaxe Java na Prática           |BASIC 		 |			                                        |        |		                     |
 |  	    |                                               |			 |[Gerador de Identificadores Únicos]()             |SBJ_511 | :white_check_mark:        |
 |  	    |                                               |			 |[Normalizador de URLs]()                          |SBJ_512 | :white_check_mark:        |
