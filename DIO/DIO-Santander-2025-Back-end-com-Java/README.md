@@ -79,4 +79,4 @@ Setup information:
 |	 	|													|SCC-5	|Code Challenge	|Desenvolvendo Lógica para Aplicações Escaláveis|1			|					|
 |	 	|													|SC-28	|Course			|Avalie este Bootcamp 2025					|1			    |	        		|
 
-## Análise do BootCamp
+## BootCamp Analysis
