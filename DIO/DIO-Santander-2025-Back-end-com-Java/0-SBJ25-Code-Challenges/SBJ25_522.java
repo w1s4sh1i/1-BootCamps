@@ -1,4 +1,10 @@
 /*
+Platform: DIO
+BootCamp: Santander 2025 Back-End Java
+Developer: André Bezerra
+Module: Dominando a Programação Orientada a Objetos 
+Challenge: 2 / 2 - Simulador de Conta Bancária
+ 
 TODO
 - [X] 1 Verifique se o saldo inicial é negativo e encerra o programa:
 - [X] 2 Retorne a condição para informar que o saldo nao pode ser negativo:

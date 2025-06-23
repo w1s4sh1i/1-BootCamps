@@ -1,7 +1,13 @@
 /*
+Platform: DIO
+BootCamp: Santander 2025 Back-End Java
+Developer: André Bezerra
+Module: Explorando a Sintaxe Java na Prática 
+Challenge: 2 / 2 - Normalizador de URLs;
+ 
 TODO: 
-    - [x] 1 Normalize a URL: removendo espaços e convertendo para minúsculas
-    - [x] 2 Exiba a URL normalizada
+- [x] 1 Normalize a URL: removendo espaços e convertendo para minúsculas
+- [x] 2 Exiba a URL normalizada
 */        
 
 import java.util.Scanner;

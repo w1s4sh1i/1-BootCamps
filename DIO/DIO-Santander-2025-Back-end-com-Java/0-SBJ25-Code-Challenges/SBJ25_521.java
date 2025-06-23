@@ -1,7 +1,13 @@
 /*
+Platform: DIO
+BootCamp: Santander 2025 Back-End Java
+Developer: André Bezerra
+Module: Dominando a Programação Orientada a Objetos
+Challenge: 1 / 2 - Criando um Sistema de Pedidos de Loja Virtual
+ 
 TODO: 
-    - [x] 1 Implemente o método para exibir as informações do pedido formatadas corretamente
-    - [x] 2 Crie o construtor para inicializar os atributos da classe
+- [x] 1 Implemente o método para exibir as informações do pedido formatadas corretamente
+- [x] 2 Crie o construtor para inicializar os atributos da classe
 */  
 
 import java.util.Scanner;

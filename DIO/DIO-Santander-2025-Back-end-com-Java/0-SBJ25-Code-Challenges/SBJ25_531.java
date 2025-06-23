@@ -1,8 +1,14 @@
 /*
+Platform: DIO
+BootCamp: Santander 2025 Back-End Java
+Developer: André Bezerra
+Module: Aprimorando Lógica de Programação 
+Challenge: 1 / 2 - Analisador de Requisições HTTP 
+ 
 TODO:
-    - [X] 1 Leia a linha de entrada:
-    - [X] 2 Exiba o primeiro elemento (método HTTP):
-    - [X] 3 Divida a string usando espaço como delimitador:
+- [X] 1 Leia a linha de entrada:
+- [X] 2 Exiba o primeiro elemento (método HTTP):
+- [X] 3 Divida a string usando espaço como delimitador:
 */
 import java.util.Scanner;
 

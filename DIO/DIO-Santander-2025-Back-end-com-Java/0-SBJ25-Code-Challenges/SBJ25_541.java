@@ -1,9 +1,15 @@
 /*
+Platform: DIO
+BootCamp: Santander 2025 Back-End Java
+Developer: André Bezerra
+Module: Estruturando Regras e Processos Lógicos 
+Challenge: 1 / 2 - Validador de Senhas Fortes 
+ 
 TODO
-    - [ ] 1 Verifique se a senha é válida e imprime o resultado:
-    - [ ] 2 Verifique se a senha tem pelo menos 8 caracteres. Se não tiver, retornar false.    
-    - [ ] 3 Percorra cada caractere da senha e verifique se há pelo menos uma letra maiúscula e um número:
-        - DICA: Use um loop para analisar cada caractere e marcar se é maiúscula ou número.
+- [X] 1 Verifique se a senha é válida e imprime o resultado:
+- [X] 2 Verifique se a senha tem pelo menos 8 caracteres. Se não tiver, retornar false.    
+- [X] 3 Percorra cada caractere da senha e verifique se há pelo menos uma letra maiúscula e um número:
+    - DICA: Use um loop para analisar cada caractere e marcar se é maiúscula ou número.
 */
 import java.util.Scanner; 
 

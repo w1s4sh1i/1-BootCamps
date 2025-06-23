@@ -1,10 +1,16 @@
 /*
+Platform: DIO
+BootCamp: Santander 2025 Back-End Java
+Developer: André Bezerra
+Module:  Estruturando Regras e Processos Lógicos
+Challenge: 2 / 2 - Sistema de Cálculo de Frete
+
 TODO
-// TODO: Crie uma estrutura condicional para determinar o valor do frete:
-    - [X] 1 Se o peso for até 1kg, o frete é R$5,00
-    - [X] 2 Se o peso for entre 1kg e 5kg, o frete é R$10,00
-    - [X] 3 Se o peso for acima de 5kg, o frete é R$20,00
-    - [X] 4 Exiba o valor do frete formatado (com duas casas decimais):
+Crie uma estrutura condicional para determinar o valor do frete:
+- [X] 1 Se o peso for até 1kg, o frete é R$5,00
+- [X] 2 Se o peso for entre 1kg e 5kg, o frete é R$10,00
+- [X] 3 Se o peso for acima de 5kg, o frete é R$20,00
+- [X] 4 Exiba o valor do frete formatado (com duas casas decimais):
 */
 import java.util.Scanner;
 

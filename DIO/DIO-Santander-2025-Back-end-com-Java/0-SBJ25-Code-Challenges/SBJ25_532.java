@@ -1,18 +1,19 @@
 /*
+Platform: DIO
+BootCamp: Santander 2025 Back-End Java
+Developer: André Bezerra
+Module: Aprimorando Lógica de Programação 
+Challenge: 2 / 2 - Analisador de Endereços IP
+ 
 TODO:
-
 - [X] 1 Divida a string IP pelo caractere "." e armazenar as partes em um array
     - DICA: Use o método split(".")
-
 - [X] 2 Verificque se o array contém exatamente 4 partes
     - DICA: Se não tiver 4 partes, o IP é inválido (retorne false)
-
 - [X] 3 Percorra cada parte do array e verificar se é um número válido:
     - DICA: Use um loop for para percorrer todas as partes do IP;
     - DICA: Para verificar se a parte é válida, chame o método ehNumeroValido(parte).
- 
 - [X] 4 Verifique se o IP é válido e imprima o resultado
-
 - [X] 5 Chame o método validarIP passando o IP como parâmetro e imprimir "ip valido" ou "ip invalido"
     - DICA: Use um if-else para verificar o retorno do método validarIP.    
 */

@@ -1,9 +1,15 @@
 /*
+Platform: DIO
+BootCamp: Santander 2025 Back-End Java
+Developer: André Bezerra
+Module: Desenvolvendo Lógica para Aplicações Escaláveis 
+Challenge: 1 / 2 - Gerador de Códigos Promocionais
+ 
 TODO
-    - [X1 Pegue as três primeiras letras do nome e convertendo para maiúsculas:
-    - [X] 2 Pegue o último dígito do ano:
-    - [X] 3 Construa o código promocional:
-    - [X] 4 Exibinda o código promocional gerado:
+- [X1 Pegue as três primeiras letras do nome e convertendo para maiúsculas:
+- [X] 2 Pegue o último dígito do ano:
+- [X] 3 Construa o código promocional:
+- [X] 4 Exibinda o código promocional gerado:
 */
 
 import java.util.Scanner;
